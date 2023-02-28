@@ -44,19 +44,21 @@ This project was developed with the following technologies:
 ```
 Download
 
+$ composer install
+
 Create file .env to configure the DATABASE copy from .env.exemple
 
 # MYSQL DATABASE 
-.env file: DB_DATABASE=simbiose
-Create database simbiose or you can change the name at the file .env
-Create table with the file sent in the database > tb_projeto_rouanet_teste
 
-# Execute Server
-execute to rode Server
+.env file: DB_DATABASE=simbiose
+1. Create database simbiose or you can change the name at the file .env
+2. Create table with the file sent in the database > tb_projeto_rouanet_teste
+
+
+# Execute Server > execute to rode Server
 $ php artisan serve 
 
-# Install Dependecies
-in another terminal enter react folder and exec
+# Install Dependecies > in another terminal enter react folder and exec
 $ npm i
 
 # Execute Project
