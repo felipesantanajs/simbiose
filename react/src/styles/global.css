@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+  font-size: 1.6rem;
+}
+
+
+
+@keyframes heartbeat{
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.25);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+.heart:hover{
+  animation:heartbeat 1s infinite;
+  fill:red;
+  color:red;
+  opacity: 1;
+  transition: opacity 500ms;
+ 
+}
