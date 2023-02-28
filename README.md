@@ -44,19 +44,22 @@ This project was developed with the following technologies:
 ```
 Download
 
-##DATABASE
+Create file .env to configure the DATABASE copy from .env.exemple
+
+# MYSQL DATABASE 
+.env file: DB_DATABASE=simbiose
 Create database simbiose or you can change the name at the file .env
 Create table with the file sent in the database > tb_projeto_rouanet_teste
 
-## Execute Server
+# Execute Server
 execute to rode Server
 $ php artisan serve 
 
-## Install Dependecies
+# Install Dependecies
 in another terminal enter react folder and exec
 $ npm i
 
-## Execute Project
+# Execute Project
 $ npm run dev
 
 ```
