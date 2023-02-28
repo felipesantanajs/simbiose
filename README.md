@@ -11,7 +11,7 @@
 <h1 align="center">Challenge Simbiótico</h1>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologies</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 ![image](https://user-images.githubusercontent.com/100092279/221934132-0aa77d7e-0a9b-4b3b-bcb0-c60d13cf89ff.png)
